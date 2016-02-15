@@ -3,6 +3,7 @@
 	<name>gitGrub</name>
 	<comment></comment>
 	<projects>
+		<project>gitGrubEntity</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
