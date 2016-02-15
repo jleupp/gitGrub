@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+		<meta charset="UTF-8">
+		<title>git Grub</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div id="container">
+			<header id="grubHeader"> <!-- prev HLheader -->
+				<h1>git Grub</h1>
+			</header>
+			<div id="sectionheader"><h1 class="sectionheader"><a href="custhome.jsp">Browse Restaurants</a></h1></div>
+			<div id="loginboxOutter">
+				<div id="loginboxInner">
+					<div id="sectionheader"><h1 class="sectionheader">Manager Log in</h1></div>
+					<form action="setManagerLoginCredentials.do" method="POST">
+						<input class="textBox" size="28" type="text" placeholder="user name " name="user_name" /><br>
+						<input class="textBox" size="28" type="password" placeholder="password" name="password" /><br>
+						<input class="textBox" size="28" type="text" placeholder="Restaurant name" name="restaurant" /><br>
+						<input class="submit" type="submit" value="Log In" />
+					</form>
+				</div>
+			</div>
+			<div id="loginboxOutter">
+				<div id="loginboxInner">
+					<div id="sectionheader"><h1 class="sectionheader">Customer Log in</h1></div>
+					<form action="setCustomerLoginCredentials.do" method="POST">
+						<input class="textBox" size="28" type="text" placeholder="user name " name="user_name" /><br>
+						<input class="textBox" size="28" type="password" placeholder="password" name="password" /><br>
+						<input class="submit" type="submit" value="Log In" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
